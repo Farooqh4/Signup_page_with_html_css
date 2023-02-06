@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Itim', cursive;
+}
+
+.outer-box {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to top left,rgba(56, 126, 231, 0.986),rgb(51, 236, 236));
+}
+.inner-box {
+    width: 400px;
+    margin: 0 auto;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 20px 40px;
+    background: linear-gradient(to top left, #ffffffff, #ffffff33);
+    backdrop-filter: blur(8px);
+    border-radius: 10px;
+    box-shadow: 4px 4px 5px #0469bb;
+    z-index: 2;
+}
+
+.signup-header h1 {
+    font-size: 2.3rem;
+    color: #212121;
+}
+
+.signup-header p {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+.signup-body {
+    font-size: 1.1rem;
+    margin: 20px 0;
+}
+
+.signup-body p {
+    margin: 15px 0;
+}
+
+.signup-body p label {
+    display: block;
+    font-weight: bold;
+}
+
+.signup-body p input {
+    width: 100%;
+    padding: 8px;
+    border: 2px solid #cccc;
+    border-radius: 6px;
+    font-size: 1rem;
+    margin-top: 6px;
+    border: none;
+}
+
+.signup-body p input[type="submit"] {
+    background-color: #3aa5ed;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.signup-body p input[type="submit"]:hover {
+    background-color: #0469bb;
+}
+
+.signup-footer p {
+    color: #555;
+    text-align: center;
+}
+
+.signup-footer a {
+    color: #3897e4;
+}
+
+.circle{
+    width: 160px;
+    height: 160px;
+    border-radius: 80px;
+    background: linear-gradient(to top right, #ffffff33, #ffffffff);
+    position: absolute;
+}
+
+.c1{
+    top: 100px;
+    left: 40px;
+}
+
+.c2 {
+    bottom: 100px;
+    right: 50px;
+}
